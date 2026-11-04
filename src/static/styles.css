@@ -74,6 +74,91 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-left: 3px solid #2e7d32;
+  border-radius: 0 4px 4px 0;
+  background-color: #eef5ef;
+}
+
+.participants-section h5 {
+  margin-bottom: 7px;
+  color: #245c32;
+  font-size: 14px;
+}
+
+.participants-section h5 span {
+  color: #56715c;
+  font-weight: normal;
+}
+
+.participants-list {
+  padding-left: 0;
+  list-style: none;
+  color: #39463b;
+  font-size: 14px;
+}
+
+.participants-list li + li {
+  margin-top: 5px;
+}
+
+.participant-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.participant-email {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.participant-remove {
+  display: inline-flex;
+  flex: 0 0 28px;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+  border: 1px solid #e3c2c2;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #a33b3b;
+}
+
+.participant-remove:hover {
+  background-color: #ffebeb;
+}
+
+.participant-remove:focus-visible {
+  outline: 2px solid #a33b3b;
+  outline-offset: 2px;
+}
+
+.participant-remove:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.participant-remove svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.participants-list .participants-empty {
+  color: #68746a;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
